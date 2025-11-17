@@ -223,3 +223,6 @@ while True:
 
     else:
         print("Opção inválida! Tente novamente.")
+# Fechando a conexão com o banco de dados
+cursor.close()
+cnn.close()
